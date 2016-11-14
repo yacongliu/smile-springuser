@@ -10,12 +10,14 @@ public class HomeController {
      * 
      * Description:
      * @author yacong_liu Email:2682505646@qq.com
-     * @date 2016年11月11日
+     * @date 2016年11月11日   
      * @return
      */
     @RequestMapping(value="/", method=RequestMethod.GET)
     public String home(){
         return "home";
     }
+    
+    //fuck you
 
 }
